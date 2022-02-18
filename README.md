@@ -2,7 +2,7 @@
 
 ## This a repo for my a project where I'm trying to predict the winner of the Most Improved Player award (MIP) in the NBA for 2022.
 
-The MIP award is probably my favourite awards among all the other ones as it is given to the player who has put the most effort in improving his game and has reached a new level on the way he's playing. It is a reward for all the dedication and the effort that was put into training and improving. It is not only about improving your individual stats but also the impact you make on the court, how the defense perceives you and makes adjustments for you and the value you add to your team. Usually winners of the MIP go on to become All Stars and NBA Champions.
+The MIP award is probably my favourite awards among all the other ones as it is given to the player who has put the most effort in improving his game and has reached a new level on the way he's playing. It is a reward for all the dedication and the effort that was put into training and improving. It is not only about improving your individual stats but also the impact you make on the court, how the defense perceives you and makes adjustments for you and the value you add to your team. Usually winners of the MIP go on to become All Stars and NBA Champions. This year, the top 5 candidates according to many websites are Ja Morant, Darius Garland, Miles Bridges, Desmond Bane and Dejounte Murray with Ja Morant emerging as the number 1 favorite. In many occassions narratives built around those players and hype play a big role in the process of giving out these awards. Let's see if the numbers support these candidacies and if the hype is real.  
 
 In this project I:
 - Created a pipeline to extract data from basketballreference.com using BeautifulSoup
@@ -58,10 +58,32 @@ Afterwards, I ran an ANOVA f-test in order to find the most meaningful features 
 
 We can turn this classification problem into a regression one. Instead of trying to predict the class of each player we can try to predict the votes he will get and more specifically the votes share he will get. **Add something about the voting system**. We have data for the voting results from the previous years and we will use them as our target variable. For the regression we will use the following regressors:
  - Linear Regression
- - SGD Regressor
+ - Support Vector Regression
  - Random Forest Regressor
 
 I ran these classifiers for 3 different datasets:
 - Data with no transformation
 - Percentile ranked data
 - Scaled data
+
+The dataset with the not transformed data had the best average accuracy so I decided to use that one for the rest of the Classification approach
+*reg_accuracies*
+
+#### Feature selection
+According to Pearson's correlation the top 10 features are:
+*reg_best_features*
+
+
+## Predictions
+
+In order to make predictions I decided to use the voting ensemble method for the best models of both approaches.
+
+### Classification
+*Clf_pred*
+
+As we can see, 3 out of the top 5 candidates appear in the prediction with Ja Morant emerging as the winner. We can also see Jordan Poole and Tyrese Maxey make an appearance. Both of them have made significant improvements in their game this season and have been getting a lot of playing time too. However, they are not the leaders on their teams or play a significant role in their team's success and that's why they might not be considered favorites by the media.
+
+### Regression
+*reg_pred*
+
+Once again we have Ja Morant as the winner. This time we have Dejounte Murray in the top 5 and also PJ Tucker whose stats have been improved greatly since last season as he has been getting a lot more playing time with the Heat.
