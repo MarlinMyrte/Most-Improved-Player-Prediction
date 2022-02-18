@@ -48,6 +48,7 @@ I ran these classifiers for 3 different datasets:
 - Oversampled data
 
 The dataset with the percentile ranked data had the best average accuracy so I decided to use that one for the rest of the Classification approach
+
 ![alt text](https://github.com/MarlinMyrte/Most-Improved-Player-Prediction/blob/main/clf_accuracies.png "Classification Accuracies")
 
 #### Feature selection
@@ -70,6 +71,7 @@ The dataset with the not transformed data had the best average accuracy so I dec
 
 #### Feature selection
 According to Pearson's correlation the top 10 features are:
+
 ![alt text](https://github.com/MarlinMyrte/Most-Improved-Player-Prediction/blob/main/reg_best_features.png "Classification Best Features")
 
 
