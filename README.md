@@ -52,8 +52,11 @@ The dataset with the percentile ranked data had the best average accuracy so I d
 ![alt text](https://github.com/MarlinMyrte/Most-Improved-Player-Prediction/blob/main/clf_accuracies.png "Classification Accuracies")
 
 #### Feature selection
+
 Afterwards, I ran an ANOVA f-test in order to find the most meaningful features in the dataset. I set an arbitrary threshold of top 15 features:
+
 ![alt text](https://github.com/MarlinMyrte/Most-Improved-Player-Prediction/blob/main/clf_best_features.png "Classification Best Features")
+
 ### Regression
 
 We can turn this classification problem into a regression one. Instead of trying to predict the class of each player we can try to predict the votes he will get and more specifically the votes share he will get. We have data for the voting results from the previous years and we will use them as our target variable. For the regression we will use the following regressors:
@@ -66,7 +69,8 @@ I ran these classifiers for 3 different datasets:
 - Percentile ranked data
 - Scaled data
 
-The dataset with the not transformed data had the best average accuracy so I decided to use that one for the rest of the Classification approach
+The dataset with the not transformed data had the best average accuracy so I decided to use that one for the rest of the Classification approach.
+
 ![alt text](https://github.com/MarlinMyrte/Most-Improved-Player-Prediction/blob/main/reg_accuracies.png "Regression Accuracies")
 
 #### Feature selection
