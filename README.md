@@ -2,12 +2,11 @@
 
 ## This a repo for a project where I'm trying to predict the winner of the Most Improved Player award (MIP) in the NBA for 2022.
 
-The MIP award is probably my favourite awards among all the other ones as it is given to the player who has put the most effort in improving his game and has reached a new level on the way he's playing. It is a reward for all the dedication and the effort that was put into training and improving. It is not only about improving your individual stats but also the impact you make on the court, how the defense perceives you and makes adjustments for you and the value you add to your team. Usually winners of the MIP go on to become All Stars and NBA Champions. This year, the top 5 candidates according to many websites are Ja Morant, Darius Garland, Miles Bridges, Desmond Bane and Dejounte Murray with Ja Morant emerging as the number 1 favorite. In many occassions narratives built around those players and hype play a major role in the process of giving out these awards. Let's see if the numbers support these candidacies and if the hype is real.  
+The MIP award is probably my favourite award among all the other ones as it is given to the player who has put the most effort in improving his game and has reached a new level on the way he's playing. It is a reward for all the dedication and the effort that was put into training and improving. It is not only about improving your individual stats but also the impact you make on the court, how the defense perceives you and makes adjustments for you and the value you add to your team. Usually winners of the MIP go on to become All Stars and NBA Champions. This year, the top 5 candidates according to many websites are Ja Morant, Darius Garland, Miles Bridges, Desmond Bane and Dejounte Murray with Ja Morant emerging as the number 1 favorite. In many occassions narratives built around those players and hype play a major role in the process of giving out these awards. Let's see if the numbers support these candidacies and if the hype is real.  
 
 In this project I:
 - Created a pipeline to extract data from basketballreference.com using BeautifulSoup
 - Cleaned the data and performed all necessary transformations
-- Created plots to see some basic relationships
 - Tried to predict the winner of the 2022 MIP award using 2 methods (Classification & Regression)
 - Performed ensembles of the best methods to come up with predictions
 
@@ -19,8 +18,6 @@ In order to make my prediction for the 2022 MIP award winner I used the performa
 *For the 1987 season, there was no voting and for that reason I decided to exclude the whole season from the project.
 
 As for the test set, I used Basic and Advanced stats from active NBA players in the current season, excluding Rookies and players who had played less than 30 games this season or the previous one.
-
-## Basic plots
 
 ## Data transformations
 
@@ -86,7 +83,7 @@ In order to make predictions I decided to use the voting ensemble method for the
 ### Classification
 ![alt text](https://github.com/MarlinMyrte/Most-Improved-Player-Prediction/blob/main/clf_pred.png "Classification Predictions")
 
-As we can see, 2 out of the top 5 candidates appear in the prediction with Dejounte Murray emerging as the winner. We can also see Obi Toppin, Tyrese Maxey and Josh Hart make an appearance. All of them have made significant improvements in their game this season and have been getting a lot more playing time too. However, they are not the leaders on their teams or play a significant role in their team's success and that's why they might not be considered favorites by the media.
+As we can see, 2 out of the top 5 candidates appear in the prediction with Dejounte Murray emerging as the winner. We can also see Obi Toppin, Tyrese Maxey and Josh Hart making an appearance. All of them have made significant improvements in their game this season and have been getting a lot more playing time too. However, they are not the leaders on their teams or play a significant role in their team's success and that's why they might not be considered favorites by the media.
 
 ### Regression
 
