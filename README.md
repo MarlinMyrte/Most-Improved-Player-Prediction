@@ -89,4 +89,4 @@ As we can see, 2 out of the top 5 candidates appear in the prediction with Dejou
 
 In the regression results, 4 out of the 5 favorites appear, however Tyrese Maxey emerges as the winner. Also, we have the clear favorite Ja Morant appear as 3rd in these standings.
 
-**This goes to prove that our perception, media narratives and hype may not agree with what the data has to say. In both cases, Ja Morant, who has been stellar this season and is even considered as an MVP candidate, did not emerge as the winner of the Most Improved Award.**
+**This goes to prove that our perception, media narratives and hype may not agree with what the data has to say. In both cases, Ja Morant, who has been stellar this season and is even considered as an MVP candidate, did not emerge as the winner of the Most Improved Award. On the other hand, there are players who numerically have improved more and who will probably get less recognition for that achievement because they don't have a star status or they do not currently lead their teams.**
