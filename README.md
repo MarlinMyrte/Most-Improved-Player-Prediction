@@ -85,6 +85,7 @@ In order to make predictions I decided to use the voting ensemble method for the
 As we can see, 2 out of the top 5 candidates appear in the prediction with Dejounte Murray emerging as the winner. We can also see Obi Toppin, Tyrese Maxey and Josh Hart make an appearance. All of them have made significant improvements in their game this season and have been getting a lot more playing time too. However, they are not the leaders on their teams or play a significant role in their team's success and that's why they might not be considered favorites by the media.
 
 ### Regression
+
 ![alt text](https://github.com/MarlinMyrte/Most-Improved-Player-Prediction/blob/main/reg_pred.png "Regression Predictions")
 
 In the regression results, 4 out of the 5 favorites appear, however Tyrese Maxey emerges as the winner. Also, we have the clear favorite Ja Morant appear as 3rd in these standings.
