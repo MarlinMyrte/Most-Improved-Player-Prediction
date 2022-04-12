@@ -1,6 +1,6 @@
 # Most-Improved-Player-Prediction
 
-## This a repo for my a project where I'm trying to predict the winner of the Most Improved Player award (MIP) in the NBA for 2022.
+## This a repo for a project where I'm trying to predict the winner of the Most Improved Player award (MIP) in the NBA for 2022.
 
 The MIP award is probably my favourite awards among all the other ones as it is given to the player who has put the most effort in improving his game and has reached a new level on the way he's playing. It is a reward for all the dedication and the effort that was put into training and improving. It is not only about improving your individual stats but also the impact you make on the court, how the defense perceives you and makes adjustments for you and the value you add to your team. Usually winners of the MIP go on to become All Stars and NBA Champions. This year, the top 5 candidates according to many websites are Ja Morant, Darius Garland, Miles Bridges, Desmond Bane and Dejounte Murray with Ja Morant emerging as the number 1 favorite. In many occassions narratives built around those players and hype play a major role in the process of giving out these awards. Let's see if the numbers support these candidacies and if the hype is real.  
 
